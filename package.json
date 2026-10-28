@@ -1,0 +1,18 @@
+{
+  "name": "cmr-quote",
+  "private": true,
+  "type": "module",
+  "description": "CMR dashboard → Nova4a → RO Writer quote drafts (human send gate)",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "dev": "agent-sdk dev"
+  },
+  "dependencies": {
+    "@grok/agent-sdk": "^0.4.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "6.0.3"
+  }
+}
